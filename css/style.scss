@@ -1,0 +1,31 @@
+
+@import "font";
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	line-height: 1.5;
+	font-family:'Raleway-Regular';
+}
+body{
+	background: #f1f1f1;
+}
+
+.main_page{
+	width:78%;
+	float:right;
+	
+}
+.container{
+	padding:0px 16px;
+}
+
+@import "sidebar";
+@import "head";
+@import "photogrid";
+@import "pagination";
+@import "myimg";
+@import "aboutme";
+@import "contact";
+@import "footer";
+@import "responsive";

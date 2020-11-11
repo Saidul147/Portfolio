@@ -1,0 +1,10 @@
+.my_img{
+	display: flex;
+	justify-content:space-between;
+	padding:16px 0px;
+
+
+}
+.my_img .my_img_box{
+	flex-basis:49%;
+}

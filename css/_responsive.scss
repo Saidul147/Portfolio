@@ -1,0 +1,64 @@
+@mixin media($width){
+	@media screen and(max-width:$width){
+		@content;
+	}
+}
+
+@include media(1000px){
+
+	.sidebar{
+		display: none;
+	}
+
+	.main_page{
+		width:100%;
+	}
+
+
+	.head_port{
+		img{
+		display:block;
+	 }
+	 h1{
+	 	clear:both;
+	 }
+  }
+
+}
+
+@include media(600px){
+		.port_filter ul li:nth-child(3) a,.port_filter ul li:nth-child(4) a{
+			display:none;
+
+}
+	.photo_grid{
+		grid-template-columns:1fr;
+	}
+	.my_img {
+		flex-direction: column;
+
+
+}
+  .price_boxs {
+	
+	grid-template-columns: 1fr;
+	
+}
+.contact_top_boxs{
+	flex-direction:column;
+}
+  footer {
+		grid-template-columns: 1fr;
+
+		p.footer_para{
+			margin-bottom:0px;
+		}
+		.footer_box p{
+			margin-top:10px;
+			margin-bottom:25px;
+		}
+	.footer_box ul #lorem_border{
+		margin-bottom: 30px;
+	}
+}
+}

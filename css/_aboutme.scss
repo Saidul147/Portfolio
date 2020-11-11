@@ -1,0 +1,175 @@
+.about_me{
+	padding: 12px ;
+	margin-bottom: 40px;
+	h4{
+		font-size: 22px;
+		font-weight: bold;
+		margin:10px 0px;
+	}
+	p{
+		font-size: 15px;
+	}
+}
+
+.technical{
+	margin-top:40px;
+	#tech_id{
+		font-size: 24px;
+	}
+}
+
+.skill_level{
+
+	p{
+		margin:15px 0px;
+		font-size: 16px;
+	}
+}
+.skill_level{
+
+	.level_box{
+		background: #9E9E9E;
+		padding:8px 16px;
+		position: relative;
+		color:#fff;
+		text-align: center;
+		z-index: 1;
+
+	&:after{
+		width:95%;
+		height: 100%;
+		background: #616161;
+		content: '';
+		display: block;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:-1;
+
+	  }
+	}
+	.skill_span1,.skill_span2,.skill_span3{
+		width:95%;
+		text-align: center;
+		display: block;
+	}
+	.skill_span2{
+		width:85%;
+		
+	}
+	.skill_span3{
+		width:80%;
+		
+	}
+
+}
+.skill_level #design:after{
+	width:85%;
+}
+.skill_level #photoshop:after{
+	width:80%;
+}
+
+.download_btn{
+	
+	margin:30px 0px;
+	display: inline-block;
+
+	button{
+		padding:12px 24px;
+		display:block;
+		text-decoration: none;
+		font-size:16px;
+		color:#fff;
+		border:none;
+		background:#616161;
+		cursor: pointer;
+
+	
+	&:hover{
+		background: #9E9E9E;
+		color:#000;
+	}
+
+	&:focus{
+		outline:1px dotted black;
+	}
+	}
+}
+// pricing table start
+
+.pricing{
+	h4{
+		font-weight: lighter;
+	}
+}
+
+.price_boxs{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: auto;
+	grid-column-gap: 20px;
+
+}
+.price_box{
+	border:1px solid #ccc;
+	background: #fff;
+	opacity:.6;
+
+  &:hover{
+  	opacity:1;
+  }
+	ul{
+		
+	}
+	li{
+		list-style: none;
+		text-align: center;
+		padding:15px 0px;
+		border-bottom:1px solid #ccc;
+		
+		font-size:17px;
+	}
+
+	#basic_price{
+		padding:32px 0px;
+		font-size:24px;
+		background: #000;
+		color:#fff;
+	}
+
+	#amount{
+		padding:26px 0px;
+
+
+		h2{
+			font-size:30px;
+			font-weight: lighter;
+		}
+	}
+   .active_pro{
+   	background: #009688 !important;
+   }
+}
+
+.sign_up_btn{
+	padding:24px 0px;
+	text-align: center;
+	background: #f1f1f1;
+		button{
+			padding: 12px 24px;
+			border:none;
+			background: #009688 ;
+			color:#fff;
+			font:inherit;
+			cursor: pointer;
+
+			&:focus{
+				outline:1px dotted #000;
+			}
+
+			&:hover{
+				background: #000;
+			}
+		}
+	}

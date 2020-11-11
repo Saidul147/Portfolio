@@ -1,0 +1,26 @@
+.pagination{
+		padding:32px 0px;
+		text-align: center;
+	.pagi{
+		display:inline-block;
+		text-decoration: none;
+		padding:8px 16px;
+		color:#000;
+
+		
+	&:hover{
+		background: #000;
+		color:#fff;
+	}
+  }
+	#pag1{
+		background: #000;
+		color:#fff;
+
+		&:hover{
+			background: #ccc;
+			color:#000;
+		}
+	}
+
+}
